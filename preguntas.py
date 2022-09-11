@@ -22,7 +22,7 @@ def pregunta_01():
 
     """
     with open("classroom-fundamentos-de-analitica/lab---python-basico-mipatinoz/data.csv", "r") as file:
-    data1 = file.readlines()
+        data1 = file.readlines()
     data1 = [line.replace("\n", "") for line in data1]
     data1 = [line.replace("\t", "/") for line in data1]
     data1 = [line.split("/") for line in data1]
