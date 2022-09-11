@@ -29,7 +29,7 @@ def pregunta_01():
     
     fila=0
     suma=0
-        for x in truck_events[0:]:
+    for x in truck_events[0:]:
         columna=int(str(truck_events[fila][1]))
         fila=fila+1
     suma+=columna
