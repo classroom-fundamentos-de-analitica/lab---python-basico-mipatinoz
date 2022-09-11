@@ -33,7 +33,7 @@ def pregunta_01():
         columna=int(str(truck_events[fila][1]))
         fila=fila+1
     suma+=columna
-    return suma
+    return suma 
 
 
 def pregunta_02():
