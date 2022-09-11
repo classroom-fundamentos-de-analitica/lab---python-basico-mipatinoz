@@ -21,7 +21,19 @@ def pregunta_01():
     214
 
     """
-    return
+    with open("classroom-fundamentos-de-analitica/lab---python-basico-mipatinoz/data.csv", "r") as file:
+    data1 = file.readlines()
+    data1 = [line.replace("\n", "") for line in data1]
+    data1 = [line.replace("\t", "/") for line in data1]
+    data1 = [line.split("/") for line in data1]
+    
+    fila=0
+    suma=0
+        for x in truck_events[0:]:
+        columna=int(str(truck_events[fila][1]))
+        fila=fila+1
+    suma+=columna
+    return suma
 
 
 def pregunta_02():
