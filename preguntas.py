@@ -32,7 +32,7 @@ def pregunta_01():
     for x in data1[0:]:
         columna=int(str(data1[fila][1]))
         fila=fila+1
-        suma+=columna
+        suma+=columna    
     return suma 
 
 
@@ -51,7 +51,7 @@ def pregunta_02():
     ]
 
     """
-    return
+    return 
 
 
 def pregunta_03():
